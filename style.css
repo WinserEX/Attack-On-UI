@@ -1,0 +1,51 @@
+#ancho {
+    width: 100%;
+    height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+    .position-relative {
+        bottom: 70px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .position-relative {
+        bottom: 30px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+
+    .textComp {
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+}
+
+.season2 {
+    background-image: url("img/attack\ on\ hero.webp");
+    background-size: contain;
+    width: auto;
+    height: 250px;
+    font-weight: bolder;
+    font-size: 50px;    
+
+}
+
+.season3 {
+    background-image: url("img/attack\ on\ hero.webp");
+    background-size: contain;
+    width: auto;
+    height: 250px;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.season4 {
+    background-image: url("img/attack\ on\ hero.webp");
+    background-size: contain;
+    width: auto;
+    height: 250px;
+    font-weight: bolder;
+    font-size: 50px;
+}
