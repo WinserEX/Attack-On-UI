@@ -23,9 +23,8 @@
 }
 
 .season2 {
-    background-image: url("img/attack\ on\ hero.webp");
-    background-size: contain;
-    width: auto;
+    background-image: url("img/s2.png");
+    width: 250px;
     height: 250px;
     font-weight: bolder;
     font-size: 50px;    
@@ -33,18 +32,16 @@
 }
 
 .season3 {
-    background-image: url("img/attack\ on\ hero.webp");
-    background-size: contain;
-    width: auto;
+    background-image: url("img/s3.png");
+    width: 250px;
     height: 250px;
     font-weight: bolder;
     font-size: 50px;
 }
 
 .season4 {
-    background-image: url("img/attack\ on\ hero.webp");
-    background-size: contain;
-    width: auto;
+    background-image: url("img/s4.png");
+    width: 250px;
     height: 250px;
     font-weight: bolder;
     font-size: 50px;
