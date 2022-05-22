@@ -1,3 +1,11 @@
+const form = document.getElementById("daForm");
+form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    console.log("Daleee");
+});
+
+
+
 let massText = (iter, targ, txt) => {
     for(let i = iter; i > 0; i--) {
         let select = document.querySelector(targ)
@@ -14,3 +22,4 @@ massText(6, "#datA", "捧げよ！ 捧げよ！");
 
 
 
+		
