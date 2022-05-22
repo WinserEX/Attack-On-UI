@@ -12,3 +12,5 @@ let massText = (iter, targ, txt) => {
 
 massText(6, "#datA", "捧げよ！ 捧げよ！");
 
+
+
