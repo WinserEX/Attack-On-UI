@@ -62,29 +62,16 @@
     <!--Form -->
     <div class="container">
       <!--Js Output 1 -->
-      <div class="row py-3 d-flex" id="datB">
-        
+      <div class="row-sm-12 text-center">
+        <h2 class="py-2"><strong>捧げよ Challenge</strong></h2>
       </div>
 
       <!--Form-->
       <div class="row py-3 d-flex">
         <form id="daForm">
           <div class="form-group">
-            <label for="exampleFormControlInput1">Iterations</label>
-            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Amount of iterations">
-          </div>
-          
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Text Location</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>Above</option>
-              <option>Below</option>
-            </select>
-          </div>
-
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Text</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your text here"></textarea>
+            <label for="iterData">How many times can you say 捧げよ！ 捧げよ！ in a row?</label>
+            <input type="number" min="1" max="150" class="form-control" id="iterData" placeholder="Number of times">
           </div>
           <input class="button btn btn-dark px-5 my-2" type="submit" value="Submit">
         </form>
@@ -92,6 +79,7 @@
 
       <!-- Js Output 2 -->
       <div class="row py-3 d-flex" id="datA">
+        
         
       </div>
     </div>
