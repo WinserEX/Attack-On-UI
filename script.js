@@ -1,7 +1,7 @@
 const form = document.getElementById("daForm");
 form.addEventListener("submit", function (e) {
     e.preventDefault();
-    console.log("Daleee");
+    console.log("Funcionó");
 });
 
 
@@ -24,7 +24,7 @@ select.addEventListener("submit", function() {
             div.append(h2)
             h2.append("PROVE IT!!!")
             div.append(p)
-            p.append("捧げよ！ 捧げよ！");
+            p.append("捧げよ！ 捧げよ!");
         }
     }
     
